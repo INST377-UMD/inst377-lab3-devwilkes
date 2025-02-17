@@ -18,19 +18,23 @@ body {
   background-color: rgb(255, 225, 181);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-  display: flex;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
 #nav-elements ul {
-  position: relative;
+  text-align: center;
+  margin: 5px;
+  display: flex;
   list-style: none;
 }
 
-#nav-elements ul:hover ul {
-  display: flex;
-  color: rgb(43, 0, 255);
+#nav_elements ul ul {
+  text-align: center;
+  align-items: stretch;
+}
+
+#nav-elements ul ul:hover li {
+  background-color: rgb(245, 237, 227);
 }
 
 .main-content {

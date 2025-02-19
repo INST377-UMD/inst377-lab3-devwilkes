@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(255, 194, 73);
+}
+
+#headfoot {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(114, 40, 0);
+  text-transform: uppercase;
+  background-color: rgb(255, 140, 32);
+  padding: 20px;
+  margin: 10px;
+  border-style: dotted;
+  clear: both;
+}
+
+#nav-elements {
+  background-color: rgb(255, 225, 181);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 5px;
+}
+
+#nav-elements ul {
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  list-style: none;
+}
+
+#nav_elements ul ul {
+  text-align: center;
+  align-items: stretch;
+}
+
+#nav-elements ul ul:hover li {
+  background-color: rgb(245, 237, 227);
+}
+
+.main-content {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(248, 149, 56);
+  color: rgb(63, 22, 0);
+  float: left;
+  width: 65%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.name :focus {
+  width: 25%;
+}
+
+#sidebar {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(209, 106, 32);
+  color: rgb(63, 22, 0);
+  text-align: left;
+  float: right;
+  padding: 10px;
+  width: 30%;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+#sidebar :hover {
+  background-color: brown;
+}
